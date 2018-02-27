@@ -1,0 +1,147 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica,sans-serif;
+    background-color: #ede9e6;
+    color: #302a2a;
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+
+p {
+  padding: 1em 0;
+}
+
+ a {
+     text-decoration: none;
+     color: #ede9e6;
+ }
+
+ a:hover {
+     text-decoration: overline;
+ }
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ede9e6;
+    color: #302a2a;
+    margin: 0.5em 0;
+    padding: 1em;
+    border: 1px solid #302a2a;
+}
+
+.btn:hover {
+    background-color: #302a2a;
+    color: #ede9e6;
+}
+
+/********header********/
+.logo img{
+    height: 10vh;
+    width: auto;
+}
+#header {
+    height: 15vh;
+}
+
+
+/*section-a*/
+#section-a {
+    text-align: end;
+    padding: 0 1.5em 0 9.5em;
+    height: 85vh;
+    background-image: url("img/pexels-photo-532566.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-a h1{
+    text-align: start;
+    padding: 0 auto;
+}
+
+    /*section-b*/
+#section-b {
+    padding: 0 1.5em;
+    background-color: #302a2a;
+    color: #ede9e6;
+}
+
+/*section-c*/
+#section-c {
+    padding: 1.5em;
+}
+
+
+    /*section-d*/
+#section-d {
+    padding: 1em 1.5em;
+    background-color: #302a2a;
+    color: #ede9e6;
+}
+
+#section-d ul {
+    list-style: none;
+}
+
+#section-d li {
+    background-color: #ede9e6;
+    color: #302a2a;
+    margin-bottom: 1em;
+}
+
+.card-content{
+    padding: 1.5em;
+}
+
+    /*section-e*/
+#section-e {
+    padding: 1em 0;
+}
+
+#section-e input{
+    display: block;
+    margin: 1em auto;
+    width: 50vw;
+}
+#section-e input:last-child {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ede9e6;
+    color: #302a2a;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #302a2a;
+}
+
+#section-e textarea {
+    display: block;
+    margin: 1em auto;
+    width: 50vw;
+}
+
+/*footer*/
+#footer {
+    padding: 0 1.5em;
+    background-color: #302a2a;
+    color: #ede9e6;
+}
