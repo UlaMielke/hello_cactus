@@ -55,7 +55,17 @@ p {
 .btn:hover {
     background-color: #1F1D1D;
     color: #f6f6f6;
+    cursor: pointer;
 }
+
+input:hover, textarea:hover {
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    background-color: #f2f2f2;
+}
+
 
 /********header********/
 
@@ -141,7 +151,6 @@ p {
 
 #section-a h1{
     text-align: center;
-    padding: 0 auto;
 }
 
 
@@ -343,7 +352,7 @@ p {
     }
 
     .navbar-nav li {
-        margin: 0 20px;
+        margin: 0 25px;
     }
 
     #section-a {
