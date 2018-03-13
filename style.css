@@ -69,17 +69,17 @@ p {
     height: 30px;
     width: 100vw;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0 20px;
 }
 .navbar a {
-    display: block;
     width: auto;
-    justify-self: flex-end;
+
 }
-.navbar-nav a{
+.navbar-nav {
     display: none;
+    margin: 5px 0 0 0;
+    list-style: none;
 }
 
 .navbar img {
@@ -88,13 +88,21 @@ p {
     display: block;
 }
 
-.navbar ul {
-    margin: 5px 0 0 0;
-    list-style: none;
-}
-
 .navbar form {
     display: none;
+}
+
+.navbar form input {
+    border: none;
+}
+
+.navbar form button {
+    border: none;
+    background: none;
+}
+
+.navbar form button:hover {
+    color: #001897;
 }
 
 .side-nav {
@@ -197,7 +205,10 @@ p {
     padding: 1em;
     border: 1px solid #302a2a;
 }
-
+#section-e input:last-child:hover {
+    background-color: #1F1D1D;
+    color: #f6f6f6;
+}
 #section-e textarea {
     display: block;
     margin: 1em auto;
@@ -250,8 +261,8 @@ p {
     .navbar {
         height: 40px;
         width: 100vw;
-        display: block;
-        float: left;
+        display: flex;
+        flex-direction: row;
     }
 
     .navbar img {
@@ -264,9 +275,13 @@ p {
         width: auto;
 
     }
-    .navbar-nav a{
-        display: block;
+    .navbar-nav {
+        display: flex;
         margin: 5px 5px;
+    }
+
+    .navbar-nav li {
+        margin: 0 10px;
     }
 
     .navbar img {
@@ -325,8 +340,12 @@ p {
 
     .navbar img {
         height: 50px;
-
     }
+
+    .navbar-nav li {
+        margin: 0 20px;
+    }
+
     #section-a {
         padding-top: 200px;
         min-height: 100vh;
